@@ -221,5 +221,6 @@ def send_email(candidate_info):
     except Exception as e:
         print(f"邮件发送失败：{e}")
 
-if __name__ == '__main__':
-    app.run()
+if __name__ == "__main__":
+    app.run(debug=True)
+
