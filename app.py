@@ -221,14 +221,6 @@ def send_email(candidate_info):
     except Exception as e:
         print(f"邮件发送失败：{e}")
 
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def index():
-    return 'Hello, World!'
-
 if __name__ == '__main__':
     app.run(debug=True)
 
